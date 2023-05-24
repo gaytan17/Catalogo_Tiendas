@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Catalogo de Tiendas</string>
+
+    <string name="hello_blank_fragment">hola blank fragment</string>
+    <string name="pista_nombre_tienda">Escribe el nombre de la tienda</string>
+    <string name="etiqueta_nombre_tienda">Nombre de tienda</string>
+    <string name="pista_tel_tienda">Escribe el telefono de la tienda</string>
+    <string name="etiqueta_tel_tienda">Telefono de tienda</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tiendas"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:text="@string/etiqueta_nombre_tienda" />
+    <EditText
+        android:id="@+id/nombre_tienda"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/pista_nombre_tienda"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:text="@string/etiqueta_tel_tienda" />
+
+    <EditText
+        android:id="@+id/telefono_tienda"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:text="@string/pista_tel_tienda" />
+</LinearLayout>
